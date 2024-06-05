@@ -1,5 +1,5 @@
 module "s3_bucket" {
-  source      = "./modules/storage/s3/" # Adjust the path as needed
+  source      = "./modules/storage/s3/"
   bucket_name = var.bucket_name
   versioning  = true
   tags        = var.s3_tags
