@@ -12,7 +12,7 @@ variable "visibility_timeout_seconds" {
 variable "message_retention_seconds" {
   description = "The number of seconds Amazon SQS retains a message"
   type        = number
-  default     = 345600  # 4 days
+  default     = 345600
 }
 
 variable "delay_seconds" {
