@@ -149,10 +149,3 @@ resource "aws_lambda_function_event_invoke_config" "lambda_sqs" {
     }
   }
 }
-
-# assignment
-# create a event bridge using terraform - rules - 
-#1. template of event initate a lambda function 
-#2. initate a sqs event and dead letter queue
-#3. belong to a single vpc
-#4. text data to parse through event bridge
